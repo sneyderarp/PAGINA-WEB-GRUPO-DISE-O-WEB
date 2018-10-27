@@ -1,0 +1,42 @@
+*{
+	padding: 0px;
+	margin: 0auto;
+}
+#menu{
+	margin: auto;
+	padding: 50px;
+	width: 500px;
+	font-family: arial,helvetica,tahoma;
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a{
+background: black;
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+display: block;
+}
+.nav li a:hover{
+	background-color: #434343;
+	}
+
+.nav < li{
+	float: left;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	max-width: 80px;
+}
+.nav li:hover > ul{
+	display: block;
+	}
+	.nav ul li ul{
+		position: relative;
+	}
+	.nav li ul li ul{
+		right:-120px;
+		top: -40px;
+	}
